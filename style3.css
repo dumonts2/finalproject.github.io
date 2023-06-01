@@ -1,0 +1,118 @@
+body {
+    background-color: #060606;
+    background-image:url(IMG_2655.JPG) ;
+  background-size: cover;
+  background-position: center center;
+  
+}
+h1{
+    font-family: 'Audiowide', cursive;
+    font-size: 100px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 5px #000000;
+    
+}
+h5{
+    font-family: 'Audiowide', cursive;
+    font-size: 27px;
+    text-align: center;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 8px #000000;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+.card{
+    position: relative;
+    left: 0px;
+}
+.card img{
+    width: 100%;
+}
+.card:not(:first-child) {
+    margin-left: -50px;
+}
+.card:hover {
+    transform: translate(-20px);
+    box-shadow: gray 5px;
+}
+.card:hover ~ .card {
+    left: 50px;
+    
+}
+p{
+    font-family: 'Audiowide', cursive;
+    font-size: 15px;
+   color: rgb(255, 255, 255);
+   text-shadow: 5px 5px 10px #060606;
+}
+a{
+    text-decoration: none;
+    font-family: 'Audiowide', cursive;
+    font-size: 40px;
+   color: rgb(255, 255, 255);
+   text-shadow: 5px 5px 5px #060606;
+   /* margin-left: 40px;
+   margin-bottom: 10px; */
+}
+
+.thriller img {
+    width: 190px;
+    padding-top: 25px;
+
+}
+.omd img{
+    width: 190px;
+    padding-top: 50px; 
+}
+.rio img{
+    width: 190px;
+    padding-top: 25px; 
+}
+.circus img{
+    width: 190px;
+    padding-top: 55px; 
+}
+.van img{
+    width: 190px;
+    padding-top: 65px; 
+}
+
+.queen img{
+    width: 190px;
+    padding-top: 50px; 
+}
+.cardd {
+	width: 200px;
+	height: 250px;
+	perspective: 800px;
+}
+.cardd__inner {
+	position: relative;
+	height: 100%;
+	transform-style: preserve-3d;
+	transition: transform 0.5s;
+}
+.cardd:hover .cardd__inner {
+	transform: rotateY(180deg);
+}
+.cardd__body {
+	position: absolute;
+	inset: 0;
+	display: grid;
+	place-items: center;
+	backface-visibility: hidden;
+	border-radius: 8px;
+	
+}
+.cardd__body--front {
+	background-color: #060606;
+}
+.cardd__body--back {
+	background-color:#060606;
+	transform: rotateY(180deg);
+}
