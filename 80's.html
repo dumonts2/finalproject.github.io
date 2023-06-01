@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>80's</title>
+    <link rel="stylesheet" href="style3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <script src="js.js"></script>
+</head>
+<body>
+    <h1>The 80's</h1>
+    <h5>Here we have various albums all made within the time range of 1980-1989.<br> By hovering over each album you will see their actual cassette tapes. <br> Click on the top of the cassettes to hear a significant song from the given albums.</h5>
+    <div class="container">
+        <!-- mj start -->
+        <article class="cardd">
+            <div class="cardd__inner">
+                <div class="cardd__body card__body--front">
+                     <div class="card">
+                     <img src="thriller.jpeg" alt="Thriller Albumn">
+                     </div>
+                 </div>
+                 <div class="card__ body card__body--body">
+                    <div class="thriller">
+            <a href="javascript:playSound('mj');">
+            <img src="thrillercasette.png" alt="thriller casette">
+            </a>
+            <p id="mj-text" style="display: none;">Wanna Be Startin' Somethin'<br>Thriller Album <br> Michael Jackson  </p>
+                     </div>
+                 </div>
+             </div>
+         </article>
+         <!-- mj end -->
+     
+     <!-- queen start -->
+        <article class="cardd">
+            <div class="cardd__inner">
+                <div class="cardd__body card__body--front">
+                     <div class="card">
+                        <img src="thegame.jpg" alt="The Game Vinyl">
+                     </div>
+                 </div>    
+                 <div class="card__body card__body--body">
+                    <div class="queen">
+                        <a href="javascript:playSound('q');">
+                        <img src="queencassette.PNG" alt="The Game Cassette">
+                        </a>
+                        <p id="q-text" style="display: none;"><br><br>Crazy Little Thing Called Love <br>The Game Album<br>Queen</p>
+                        </div>
+                 </div>
+            </div>
+         </article>
+
+        <!-- queen end -->
+
+   <!-- omd start -->
+   <article class="cardd">
+    <div class="cardd__inner">
+        <div class="cardd__body card__body--front">
+             <div class="card">
+                <img src="omd.png" alt="Architecture & Morality albumn">
+             </div>
+         </div>    
+         <div class="card__body card__body--body">
+            <div class="omd">
+                <a href="javascript:playSound('o');">
+                <img src="omdcassette-removebg-preview.png" alt="Architecture & Morality Cassette">
+                </a>
+                <p id="o-text" style="display: none;"><br><br> She's Leaving<br>Architecture & Morality Album<br>Orchestral Manoeuvres In The Dark</p>
+                </div>
+         </div>
+    </div>
+ </article>
+
+<!-- omd end -->
+
+       <!-- Rio start -->
+   <article class="cardd">
+    <div class="cardd__inner">
+        <div class="cardd__body card__body--front">
+             <div class="card">
+                <img src="rio.jpg" alt="Rio Duran Duran Album">
+             </div>
+         </div>    
+         <div class="card__body card__body--body">
+            <div class="rio">
+                <a href="javascript:playSound('r');">
+                    <img src="riooooo-removebg-preview.png" alt="Rio Duran Duran Cassette">
+                </a>
+                <p id="r-text" style="display: none;">Rio<br>Rio Albumn<br>Duran Duran</p>
+                </div>
+         </div>
+    </div>
+ </article>
+
+<!-- rio end -->
+
+  <!-- circus start -->
+  <article class="cardd">
+    <div class="cardd__inner">
+        <div class="cardd__body card__body--front">
+             <div class="card">
+                <img src="ErasureTheCircus.jpg" alt="The Circus Albumn">
+             </div>
+         </div>    
+         <div class="card__body card__body--body">
+            <div class="circus">
+                <a href="javascript:playSound('c');">
+                <img src="circuscassette.png" alt="The Circus Albumn Cassette">
+                </a>
+                <p id="c-text" style="display: none;"><br><br>Sometimes<br>The Circus Albumn<br>Erasure</p>
+                </div>
+         </div>
+    </div>
+ </article>
+
+<!-- circus end -->
+       
+  <!-- 1984 Albumn start -->
+  <article class="cardd">
+    <div class="cardd__inner">
+        <div class="cardd__body card__body--front">
+             <div class="card">
+                <img src="1984.jpg" alt="1984 Albumn">
+             </div>
+         </div>    
+         <div class="card__body card__body--body">
+            <div class="van">
+                <a href="javascript:playSound('v');">
+                <img src="1984cassette.png" alt="1984 Casette">
+                </a>
+                <p id="v-text" style="display: none;"><br><br>Panama<br>1984 Album<br>Van Halen</p>
+                </div>
+         </div>
+    </div>
+ </article>
+
+<!-- Honky Dory Albumn end -->
+       
+    </div>
+</div>
+
+   
+  <audio id="mj"  src="Michael Jackson - Thriller - Wanna Be Startin' Somethin'.mp3" preload="auto"></audio>
+  
+  <audio id="q"  src="Crazy Little Thing Called Love (Remastered 2011).mp3" preload="auto"></audio>
+  <audio id="o"  src="She's Leaving (2003 Digital Remaster).mp3" preload="auto"></audio>
+  <audio id="r"  src="Duran Duran - Rio (Lyrics HD).mp3" preload="auto"></audio>
+  <audio id="c"  src="Erasure - Sometimes.mp3" preload="auto"></audio>
+  <audio id="v"  src="Panama (2015 Remaster).mp3" preload="auto"></audio>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+   <a href="index.html">HOME</a>
+   <div class="previous era">
+    <a href="70's.html">PREVIOUS ERA</a>
+   </div>
+   <div class="next era">
+    <a href="90's.html">NEXT ERA</a>
+   </div>
+   
+</body>
+</html>

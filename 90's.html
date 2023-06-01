@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>90's</title>
+    <link rel="stylesheet" href="style5.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <script src="js.js"></script>
+</head>
+<body>
+    <h1>The 90's</h1>
+    <h5>Here we have various albums all made within the time range of 1990-1999.<br> By hovering over each album you will see their actual cassette tapes. <br> Click on the top of the cassettes to hear a significant song from the given albums.</h5>
+    <div class="container">
+        <!-- lauryn start -->
+        <article class="cardd">
+            <div class="cardd__inner">
+                <div class="cardd__body card__body--front">
+                     <div class="card">
+                     <img src="LaurynHillTheMiseducationofLaurynHillalbumcover.jpg" alt="The Miseducation of Lauryn Hill albumn">
+                     </div>
+                 </div>
+                 <div class="card__ body card__body--body">
+                    <div class="hill">
+            <a href="javascript:playSound('lh');">
+            <img src="Scan_16_thumb-removebg-preview.png" alt="The Miseducation of Lauryn Hill CD">
+            </a>
+            <p id="lh-text" style="display: none;"><br>Can't Take My Eyes Off Of You<br>The Miseducation of Lauryn Hill Album <br> Lauryn Hill  </p>
+                     </div>
+                 </div>
+             </div>
+         </article>
+         <!-- lauryn end -->
+     
+     <!-- mazzy start -->
+        <article class="cardd">
+            <div class="cardd__inner">
+                <div class="cardd__body card__body--front">
+                     <div class="card">
+                        <img src="mazzy.jpg" alt="So Tonight That I Might See Albumn">
+                     </div>
+                 </div>    
+                 <div class="card__body card__body--body">
+                    <div class="mazzy">
+                        <a href="javascript:playSound('m');">
+                        <img src="mazzy-star-so-tonight-that-i-might-see-2-cd-removebg-preview.png" alt="So Tonight That I Might See CD">
+                        </a>
+                        <p id="m-text" style="display: none;"><br><br>Fade Into You <br>So Tonight That I Might See Album<br>Mazzy Star</p>
+                        </div>
+                 </div>
+            </div>
+         </article>
+
+        <!-- mazzy end -->
+
+   <!-- twins start -->
+   <article class="cardd">
+    <div class="cardd__inner">
+        <div class="cardd__body card__body--front">
+             <div class="card">
+                <img src="Cocteau_Twins—Heaven_or_Las_Vegas.jpg" alt="Heaven or Las Vegas  albumn">
+             </div>
+         </div>    
+         <div class="card__body card__body--body">
+            <div class="twins">
+                <a href="javascript:playSound('t');">
+                <img src="e7a2d8ec6d90c57846261b0ef1ddfd29-removebg-preview.png" alt="Heaven or Las Vegas CD">
+                </a>
+                <p id="t-text" style="display: none;"><br><br> Fotzepolitic<br>Heaven or Las Vegas Album<br>Cocteau Twins</p>
+                </div>
+         </div>
+    </div>
+ </article>
+
+<!-- twins end -->
+
+       <!-- nirvana start -->
+   <article class="cardd">
+    <div class="cardd__inner">
+        <div class="cardd__body card__body--front">
+             <div class="card">
+                <img src="neva.jpg" alt="Nevermind Album">
+             </div>
+         </div>    
+         <div class="card__body card__body--body">
+            <div class="nir">
+                <a href="javascript:playSound('n');">
+                    <img src="nevermind-5232416c46820.png" alt="Nevermind CD">
+                </a>
+                <p id="n-text" style="display: none;"><br>Smells Like Teen Spirit<br>Nevermind Album<br>Nirvana</p>
+                </div>
+         </div>
+    </div>
+ </article>
+
+<!-- nirvana end -->
+
+  <!-- fiona start -->
+  <article class="cardd">
+    <div class="cardd__inner">
+        <div class="cardd__body card__body--front">
+             <div class="card">
+                <img src="Fiona_apple_when_the_pawn.jpg" alt="When The Pawn ALbum">
+             </div>
+         </div>    
+         <div class="card__body card__body--body">
+            <div class="fiona">
+                <a href="javascript:playSound('fa');">
+                <img src="edef32cced13463a9f415dcfbfe565d4-removebg-preview.png" alt="When The Pawn CD">
+                </a>
+                <p id="fa-text" style="display: none;"><br><br>The Way Things Are<br>When The Pawn...<br>Fiona Apple</p>
+                </div>
+         </div>
+    </div>
+ </article>
+
+<!-- fiona end -->
+       
+  <!-- flaming start -->
+  <article class="cardd">
+    <div class="cardd__inner">
+        <div class="cardd__body card__body--front">
+             <div class="card">
+                <img src="flaming.jpg" alt="The Soft Bulletin Albumn">
+             </div>
+         </div>    
+         <div class="card__body card__body--body">
+            <div class="flame">
+                <a href="javascript:playSound('f');">
+                <img src="soft-removebg-preview.png" alt="The Soft Bulletin CD">
+                </a>
+                <p id="f-text" style="display: none;"><br><br>Feeling Yourself Disintegrate<br>The Soft Bulletin Album<br>The Flaming Lips</p>
+                </div>
+         </div>
+    </div>
+ </article>
+
+<!-- flaming Albumn end -->
+       
+    </div>
+</div>
+
+   
+  <audio id="lh"  src="Can't Take My Eyes Off Of You.mp3" preload="auto"></audio>
+  
+  <audio id="m"  src="Fade Into You.mp3" preload="auto"></audio>
+  <audio id="t"  src="Fotzepolitic.mp3" preload="auto"></audio>
+  <audio id="n"  src="Nirvana - Smells Like Teen Spirit (Lyrics).mp3" preload="auto"></audio>
+  <audio id="fa"  src="The Way Things Are.mp3" preload="auto"></audio>
+  <audio id="f"  src="Feeling Yourself Disintegrate (2017 Remaster).mp3" preload="auto"></audio>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+   <a href="index.html">HOME</a>
+   <div class="previous era">
+    <a href="80's.html">PREVIOUS ERA</a>
+   </div>
+  
+   
+</body>
+</html>

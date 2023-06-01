@@ -1,0 +1,45 @@
+h1{
+font-family: 'Space Mono', monospace;
+font-family: 'Wix Madefor Display', sans-serif;
+font-weight: 700;
+text-align: center;
+margin-top: 150px;
+font-size: 80px;
+}
+
+h3{
+font-family: 'Space Mono', monospace;
+font-family: 'Wix Madefor Display', sans-serif;
+font-weight: 400;
+text-align: center;
+}
+
+.notes{
+    margin-top: 10px;
+}
+
+.round-button {
+    display:block;
+    width:180px;
+    height:80px;
+    line-height:80px;
+    border: 7px solid #f5f5f5;
+    border-radius: 50%;
+    color:#f5f5f5;
+    text-align:center;
+    text-decoration:none;
+    background: #111112;
+    box-shadow: 0 0 3px gray;
+    font-size:30px;
+    font-weight: 700;
+    font-family: 'Space Mono', monospace;
+    font-family: 'Wix Madefor Display', sans-serif;
+    /* margin-left: 555px; */
+    margin-top: 50px;
+    float: left;
+    margin: 70px;
+    
+}
+.round-button:hover {
+    background: #404a71;
+}

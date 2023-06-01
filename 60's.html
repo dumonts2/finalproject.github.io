@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>60's</title>
+    <link rel="stylesheet" href="style4.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <script src="js.js"></script>
+</head>
+<body>
+    <h1>The 60's</h1>
+    <h5>Here we have various albums all made within the time range of 1960-1969.<br> By hovering over each album you will see their actual vinyl records. <br> Click on the top of the vinyls to hear a significant song from the given albums.</h5>
+    <div class="container">
+        <!-- abbey road -->
+        <article class="cardd">
+            <div class="cardd__inner">
+                <div class="cardd__body card__body--front">
+                     <div class="card">
+                     <img src="abbeyroad.jpg" alt="Abbey Road Albumn">
+                     </div>
+                 </div>
+                 <div class="card__ body card__body--body">
+                    <div class="abbey">
+            <a href="javascript:playSound('b');">
+            <img src="The_Beatles_Abbey_Road_2009_Vinyl_Side_One-removebg-preview.png" alt="Abbey Road Vinyl">
+            </a>
+            <p id="b-text" style="display: none;">The End<br>Abbey Road Album <br> The Beatles </p>
+                     </div>
+                 </div>
+             </div>
+         </article>
+         <!-- abbey road end -->
+     
+     <!-- led 2 start -->
+        <article class="cardd">
+            <div class="cardd__inner">
+                <div class="cardd__body card__body--front">
+                     <div class="card">
+                        <img src="lz2.jpg" alt="Led Zeppelin II Album">
+                     </div>
+                 </div>    
+                 <div class="card__body card__body--body">
+                    <div class="lz">
+                        <a href="javascript:playSound('lz');">
+                        <img src="lzvinyl.png" alt="Led Zeppelin II VInyl">
+                        </a>
+                        <p id="lz-text" style="display: none;"><br>Ramble On <br>Led Zeppelin II Album<br>Led Zeppelin</p>
+                        </div>
+                 </div>
+            </div>
+         </article>
+
+        <!-- led2 end -->
+
+   <!-- velvet underground start -->
+   <article class="cardd">
+    <div class="cardd__inner">
+        <div class="cardd__body card__body--front">
+             <div class="card">
+                <img src="velvetunderground.jpg" alt="The Velvet Underground & Nico albumn">
+             </div>
+         </div>    
+         <div class="card__body card__body--body">
+            <div class="sun">
+                <a href="javascript:playSound('vu');">
+                <img src="the-velvet-underground-nico-the-velvet-underground-nico.png" alt="The Velvet Underground & Nico vinyl">
+                </a>
+                <p id="vu-text" style="display: none;"><br> Sunday Morning<br>The Velvet Underground & Nico<br>The Velvet Underground</p>
+                </div>
+         </div>
+    </div>
+ </article>
+
+<!-- velvet underground end -->
+
+       <!-- jimi start -->
+   <article class="cardd">
+    <div class="cardd__inner">
+        <div class="cardd__body card__body--front">
+             <div class="card">
+                <img src="jimi.jpeg" alt="Electric Ladyland Album">
+             </div>
+         </div>    
+         <div class="card__body card__body--body">
+            <div class="jimi">
+                <a href="javascript:playSound('jh');">
+                    <img src="the-jimi-hendrix-experience-electric-ladyland-28-ab-removebg-preview.png" alt="Electric Ladyland Vinyl">
+                </a>
+                <p id="jh-text" style="display: none;">All Along the Watchtower<br>Electric Ladyland<br>Jimi Hendrix</p>
+                </div>
+         </div>
+    </div>
+ </article>
+
+<!-- jimi end -->
+
+  <!-- bobby start -->
+  <article class="cardd">
+    <div class="cardd__inner">
+        <div class="cardd__body card__body--front">
+             <div class="card">
+                <img src="Bob_Dylan_-_Highway_61_Revisited.jpg" alt="Highway 61 Revisited Albumn">
+             </div>
+         </div>    
+         <div class="card__body card__body--body">
+            <div class="bob">
+                <a href="javascript:playSound('bd');">
+                <img src="R-10016273-1490192822-3224.jpeg-20210109-014531-removebg-preview.png" alt="Highway 61 Revisited Vinyl">
+                </a>
+                <p id="bd-text" style="display: none;"><br>Like a Rolling Stone<br>Highway 61 Revisited Albumn<br>Bob Dylan</p>
+                </div>
+         </div>
+    </div>
+ </article>
+
+<!-- bobby end -->
+       
+  <!-- love start -->
+  <article class="cardd">
+    <div class="cardd__inner">
+        <div class="cardd__body card__body--front">
+             <div class="card">
+                <img src="Love_-_forever_changes.jpg" alt="Forever Changes Albumn">
+             </div>
+         </div>    
+         <div class="card__body card__body--body">
+            <div class="love">
+                <a href="javascript:playSound('lv');">
+                <img src="LOVE_FOREVER+CHANGES+-+RED+LABEL-311980b-removebg-preview.png" alt="Forever Changes Vinyl">
+                </a>
+                <p id="lv-text" style="display: none;"><br>Old Man<br>Forever Changes Album<br>Love</p>
+                </div>
+         </div>
+    </div>
+ </article>
+
+<!-- love Albumn end -->
+       
+    </div>
+</div>
+
+   
+  <audio id="b"  src="The End (Remastered 2009).mp3" preload="auto"></audio>
+  <audio id="lz"  src="Ramble On-Led Zepelin (With lyrics).mp3" preload="auto"></audio>
+  <audio id="vu"  src="Sunday Morning.mp3" preload="auto"></audio>
+  <audio id="jh"  src="The Jimi Hendrix Experience - All Along The Watchtower (Official Audio).mp3" preload="auto"></audio>
+  <audio id="bd"  src="Like a Rolling Stone.mp3" preload="auto"></audio>
+  <audio id="lv"  src="Old Man (2015 Remaster).mp3" preload="auto"></audio>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+   <a href="index.html">HOME</a>
+   <div class="next era">
+    <a href="70's.html">NEXT ERA</a>
+   </div>
+   
+</body>
+</html>

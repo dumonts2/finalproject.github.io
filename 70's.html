@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>70's</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rum+Raisin&display=swap" rel="stylesheet">
+    <script src="js.js"></script>
+</head>
+<body>
+    <h1>The 70's</h1>
+    <h5>Here we have various albums all made within the time range of 1970-1979.<br> By hovering over each album you will see their actual vinyl records. <br> Click on the top of the vinyl records to hear a significant song from the given albums.</h5>
+    <div class="container">
+        <!-- supertramp start -->
+        <article class="cardd">
+            <div class="cardd__inner">
+                <div class="cardd__body card__body--front">
+                     <div class="card">
+                     <img src="IMG_1263.JPG" alt="Breakfast In America Vinyl">
+                     </div>
+                 </div>
+                 <div class="card__ body card__body--body">
+                    <div class="supertramp">
+            <a href="javascript:playSound('b');">
+            <img src="supertrampvinyl.PNG" alt="Breakfast in American Vinyl">
+            </a>
+            <p id="b-text" style="display: none;">Breakfast in America<br>Breakfast in America Album <br> Supertramp  </p>
+                     </div>
+                 </div>
+             </div>
+         </article>
+         <!-- supertramp end -->
+     
+     <!-- dark side of the moon start -->
+        <article class="cardd">
+            <div class="cardd__inner">
+                <div class="cardd__body card__body--front">
+                     <div class="card">
+                        <img src="darksidealb.jpg" alt="Dark Side of The Moon Vinyl">
+                     </div>
+                 </div>    
+                 <div class="card__body card__body--body">
+                    <div class="pinkfloyd">
+                        <a href="javascript:playSound('d');">
+                        <img src="darksideofmoonvinyl.PNG" alt="Dark Side of the Moon Vinyl">
+                        </a>
+                        <p id="d-text" style="display: none;">Breathe in the Air <br>Dark Side of the Moon Album<br>Pink Floyd</p>
+                        </div>
+                 </div>
+            </div>
+         </article>
+
+        <!-- dark side of moon end -->
+
+   <!-- Led Zeppelin IV start -->
+   <article class="cardd">
+    <div class="cardd__inner">
+        <div class="cardd__body card__body--front">
+             <div class="card">
+                <img src="IMG_1254.jpg" alt="Led Zeppelin IV Vinyl">
+             </div>
+         </div>    
+         <div class="card__body card__body--body">
+            <div class="led">
+                <a href="javascript:playSound('l');">
+                <img src="zepvinyl.PNG" alt="Led Zeppelin IV Vinyl">
+                </a>
+                <p id="l-text" style="display: none;">Black Dog<br>Led Zeppelin IV Album<br>Led Zeppelin</p>
+                </div>
+         </div>
+    </div>
+ </article>
+
+<!-- Led Zeppelin IV end -->
+
+       <!-- All Things Must Pass Albumn start -->
+   <article class="cardd">
+    <div class="cardd__inner">
+        <div class="cardd__body card__body--front">
+             <div class="card">
+                <img src="All_Things_Must_Pass_1970_cover.jpg" alt="All Things Must Pass Albumn">
+             </div>
+         </div>    
+         <div class="card__body card__body--body">
+            <div class="har">
+                <a href="javascript:playSound('h');">
+                    <img src="harrisonvinyll.PNG" alt="All Things Must Pass Vinyl">
+                </a>
+                <p id="h-text" style="display: none;">What is Life<br>All Things Must Pass Album<br>George Harrison</p>
+                </div>
+         </div>
+    </div>
+ </article>
+
+<!-- All Things Must Pass Albumn end -->
+
+  <!-- Blood On the Leaves Albumn start -->
+  <article class="cardd">
+    <div class="cardd__inner">
+        <div class="cardd__body card__body--front">
+             <div class="card">
+                <img src="bobdylan.JPG" alt="Blood On the Leaves Albumn">
+             </div>
+         </div>    
+         <div class="card__body card__body--body">
+            <div class="dylan">
+                <a href="javascript:playSound('s');">
+                <img src="dylanvinyl.PNG" alt="Blood On the Leaves Vinyl">
+                </a>
+                <p id="s-text" style="display: none;">Twist of Fate<br>Blood on the Leaves Album<br>Bob Dylan</p>
+                </div>
+         </div>
+    </div>
+ </article>
+
+<!-- Blood On the Leaves Albumn end -->
+       
+  <!-- Honky Dory Albumn start -->
+  <article class="cardd">
+    <div class="cardd__inner">
+        <div class="cardd__body card__body--front">
+             <div class="card">
+                <img src="honkydoryalb.jpg" alt="Honky Dory Albumn">
+             </div>
+         </div>    
+         <div class="card__body card__body--body">
+            <div class="bowie">
+                <a href="javascript:playSound('db');">
+                <img src="hunkydoryvinyl.PNG" alt="Honky Dory Vinyl">
+                </a>
+                <p id="db-text" style="display: none;">Changes<br>Honky Dory Album<br>David Bowie</p>
+                </div>
+         </div>
+    </div>
+ </article>
+
+<!-- Honky Dory Albumn end -->
+       
+    </div>
+</div>
+
+   
+  <audio id="b"  src="[YT2mp3.info] - Supertramp - Breakfast In America (HQ) (320kbps).mp3" preload="auto"></audio>
+  
+  <audio id="d"  src="[YT2mp3.info] - Breathe (In The Air) (320kbps).mp3" preload="auto"></audio>
+  <audio id="l"  src="[YT2mp3.info] - Led Zeppelin - Black Dog [Remastered] (HQ) (320kbps).mp3" preload="auto"></audio>
+  <audio id="h"  src="[YT2mp3.info] - What Is Life - George Harrison (320kbps).mp3" preload="auto"></audio>
+  <audio id="s"  src="[YT2mp3.info] - Bob Dylan - Simple Twist of Fate (Official Audio) (320kbps).mp3" preload="auto"></audio>
+  <audio id="db"  src="[YT2mp3.info] - David Bowie - Changes (320kbps).mp3" preload="auto"></audio>
+  <br>
+  <br>
+  <br>
+   <a href="index.html">HOME</a>
+   <div class="previous era">
+    <a href="60's.html">PREVIOUS ERA</a>
+   </div>
+   <div class="next era">
+    <a href="80's.html">NEXT ERA</a>
+   </div>
+   
+</body>
+</html>
